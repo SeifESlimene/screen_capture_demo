@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", "open-sans";
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  text-transform: uppercase;
+}
+
+video {
+  border: 5px solid rgb(0, 204, 255);
+  margin: 20px auto;
+  width: 90%;
+  height: 500px;
+  display: block;
+}
+
+.controls {
+  text-align: center;
+}
+
+.controls button {
+  font-family: Montserrat, open sans;
+  padding: 10px 25px;
+  margin-left: 20px;
+  background-color: rgb(0, 204, 255);
+  border: 2px solid rgb(0, 204, 255);
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+}
+
+.controls button:focus {
+  outline: 0 !important;
+}
+
+#log {
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+}
+
+.warn {
+  color: orange;
+}
+
+.info {
+  color: darkgreen;
+}
